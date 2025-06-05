@@ -44,9 +44,9 @@
             "#2a2c4a"
         ],
         "BACKGROUND_ACCENT": [
-            "#86b4ea",
-            "#86b4ea",
-            "#86b4ea"
+            "#fae3d9",
+            "#fae3d9",
+            "#fae3d9"
         ],
         "BACKGROUND_MODIFIER_ACCENT": [
             "#114d917a",
@@ -74,14 +74,14 @@
             "#000000"
         ],
         "BACKGROUND_PRIMARY": [
-            "#2a2c4a",
-            "#2a2c4a",
-            "#2a2c4a"
+            "#4b4d77",
+            "#4b4d77",
+            "#4b4d77"
         ],
         "BACKGROUND_SECONDARY": [
-            "#3a3c6c",
-            "#3a3c6c",
-            "#3a3c6c"
+            "#f6e7c9",
+            "#f6e7c9",
+            "#f6e7c9"
         ],
         "BACKGROUND_SECONDARY_ALT": [
             "#1f213a",
@@ -204,9 +204,9 @@
             "#000000"
         ],
         "HEADER_PRIMARY": [
-            "#f9ede4",
-            "#f9ede4",
-            "#f9ede4"
+            "#d6a94a",
+            "#d6a94a",
+            "#d6a94a"
         ],
         "HEADER_SECONDARY": [
             "#b73540",
@@ -279,9 +279,9 @@
             "#2a2c4a"
         ],
         "INTERACTIVE_ACTIVE": [
-            "#f9ede4",
-            "#f9ede4",
-            "#f9ede4"
+            "#a3464f",
+            "#a3464f",
+            "#a3464f"
         ],
         "INTERACTIVE_HOVER": [
             "#d6cba5",
@@ -339,9 +339,9 @@
             "#83a598"
         ],
         "STATUS_POSITIVE_BACKGROUND": [
-            "#a4d4ae",
-            "#a4d4ae",
-            "#a4d4ae"
+            "#bccf91",
+            "#bccf91",
+            "#bccf91"
         ],
         "STATUS_POSITIVE_TEXT": [
             "#dcddde",
@@ -369,9 +369,9 @@
             "#fb4934"
         ],
         "TEXT_LINK": [
-            "#b73540",
-            "#b73540",
-            "#b73540"
+            "#a3464f",
+            "#a3464f",
+            "#a3464f"
         ],
         "TEXT_LINK_LOW_SATURATION": [
             "#dcddde",
@@ -384,9 +384,9 @@
             "#c7bca1"
         ],
         "TEXT_NORMAL": [
-            "#f4d9a5",
-            "#f4d9a5",
-            "#f4d9a5"
+            "#3d3a4e",
+            "#3d3a4e",
+            "#3d3a4e"
         ],
         "TEXT_POSITIVE": [
             "#689d6a",
@@ -401,22 +401,22 @@
     },
     "rawColors": {
         "BG_GRADIENT_CRIMSON_MOON_2": "#000000",
-        "PRIMARY_100": "#f4d9a5",
+        "PRIMARY_100": "#f6e7c9",
         "PRIMARY_130": "#dbeafa",
-        "PRIMARY_200": "#f4d9a5",
+        "PRIMARY_200": "#fae3d9",
         "PRIMARY_230": "#7eb3f0",
-        "PRIMARY_300": "#b73540",
+        "PRIMARY_300": "#a3464f",
         "PRIMARY_360": "#2780E6",
-        "PRIMARY_400": "#3a3c6c",
+        "PRIMARY_400": "#4b4d77",
         "PRIMARY_460": "#061428",
-        "PRIMARY_500": "#2a2c4a",
+        "PRIMARY_500": "#3d3a4e",
         "PRIMARY_560": "#102b47",
         "PRIMARY_600": "#061428",
         "PRIMARY_630": "#000000",
         "PRIMARY_660": "#000000",
         "PRIMARY_700": "#000000",
         "PRIMARY_800": "#000000",
-        "PRIMARY_900": "#1c1d33",
+        "PRIMARY_900": "#f2cfc7",
         "BLACK_500": "#1c1d33",
         "BLACK_530": "#000000",
         "BLACK_560": "#000000",
@@ -439,8 +439,11 @@
         "RED_430": "#2780E6",
         "RED_460": "#2780E6",
         "GREEN_360": "#689d6a",
-        "WHITE_500": "#f9ede4",
-        "YELLOW_300": "#2780E6"
+        "WHITE_500": "#fefbf7",
+        "YELLOW_300": "#2780E6",
+        "STATUS_POSITIVE_BACKGROUND": "#bccf91",
+        "TEXT_DANGER": "#a3464f",
+        "TEXT_WARNING": "#d6a94a"
     },
     "background": {
         "url": "https://github.com/ImMayunnaise/Anicord-theme/blob/main/wallpaper-theme.jpg?raw=true"
@@ -449,12 +452,12 @@
         "version": 0,
         "customOverlays": true,
         "icons": {
-            "ic_mic_neutral": "#102b47",
-            "ic_mic_muted_neutral": "#102b47",
-            "ic_soundboard": "#102b47",
-            "ic_soundboard_muted": "#102b47",
-            "ic_video": "#102b47",
-            "ic_video_disabled": "#102b47"
+            "ic_mic_neutral": "#a3464f",
+            "ic_mic_muted_neutral": "#a3464f",
+            "ic_soundboard": "#a3464f",
+            "ic_soundboard_muted": "#a3464f",
+            "ic_video": "#a3464f",
+            "ic_video_disabled": "#a3464f"
         },
         "iconpack": "rosiecord-plumpy"
     },
