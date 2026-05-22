@@ -99,9 +99,9 @@
       "#000000"
     ],
     "CHANNELS_DEFAULT": [
-      "#a29bc4",
-      "#a29bc4",
-      "#a29bc4"
+      "#425560",
+      "#425560",
+      "#425560"
     ],
     "CHANNEL_ICON": [
       "#2d6a704d",
@@ -279,9 +279,9 @@
       "#14252d"
     ],
     "INTERACTIVE_ACTIVE": [
-      "#2d6a70",
-      "#2d6a70",
-      "#2d6a70"
+      "#4d3d7a",
+      "#4d3d7a",
+      "#4d3d7a"
     ],
     "INTERACTIVE_HOVER": [
       "#bce3ee",
@@ -294,9 +294,9 @@
       "#a29bc4"
     ],
     "INTERACTIVE_NORMAL": [
-      "#bce3ee",
-      "#bce3ee",
-      "#bce3ee"
+      "#1a303b",
+      "#1a303b",
+      "#1a303b"
     ],
     "LOGO_PRIMARY": [
       "#2d6a70",
@@ -369,9 +369,9 @@
       "#2d6a70"
     ],
     "TEXT_LINK": [
-      "#5a4a9c",
-      "#5a4a9c",
-      "#5a4a9c"
+      "#4d3d7a",
+      "#4d3d7a",
+      "#4d3d7a"
     ],
     "TEXT_LINK_LOW_SATURATION": [
       "#bce3ee",
@@ -379,14 +379,14 @@
       "#bce3ee"
     ],
     "TEXT_MUTED": [
-      "#4a5b66",
-      "#4a5b66",
-      "#4a5b66"
+      "#425560",
+      "#425560",
+      "#425560"
     ],
     "TEXT_NORMAL": [
-      "#101f26",
-      "#101f26",
-      "#101f26"
+      "#12222a",
+      "#12222a",
+      "#12222a"
     ],
     "TEXT_POSITIVE": [
       "#2d6a70",
