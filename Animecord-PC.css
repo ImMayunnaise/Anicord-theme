@@ -1,0 +1,242 @@
+/**
+ * @name Animecord
+ * @author immayunnaise
+ * @description A custom anime Discord theme balanced with warm autumn colors.
+ * @version 2.1
+ * @authorId 893960265115267132
+ * @based from Konemo, mica and midnight theme, all credit are for they i'm just a designer change value and know a little what make what in a discord css file
+ */
+
+/* ==========================================================
+                             IMPORTS
+   ========================================================== */
+@import url("https://discord-mica.pages.dev/src/main.css");
+@import url("https://refact0r.github.io/midnight-discord/build/midnight.css");
+
+/* ==========================================================
+                    VARIABLES AND STRUCTURE
+   ========================================================== */
+
+:root {
+    /* Background */
+    --dark-bg: url("https://images5.alphacoders.com/854/854590.png") !important;
+    background: var(--dark-bg) no-repeat center center fixed !important;
+    background-size: cover !important;
+    background-color: var(--app-bg) !important;
+    --dark-accent: #e56b43 !important;
+    --dark-accent-hovered: #c34e27 !important;
+    --dark-accent-font-color: #fff3f0 !important;
+    --dark-button: rgba(229, 107, 67, 0.25) !important;
+    --dark-button-border: rgba(255, 255, 255, 0.1) !important;
+    --dark-button-font-color: #fca386 !important;
+
+    /* menus fonts */
+    --dark-flyout: rgb(32, 22, 25) !important;
+    --dark-background-accent: rgba(35, 25, 28, 0.7) !important;
+    --dark-status-panel: rgba(25, 18, 20, 0.5) !important;
+    --custom-app-top-bar-height: calc(24px + var(--space-sm));
+    --title-bar-icon: flex;
+}
+
+body {
+    --font: "figtree";
+    --gap: 10px;
+    --divider-thickness: 4px;
+    --border-thickness: 1px;
+    --animations: on;
+    --list-item-transition: 0.2s ease;
+    --dms-icon-svg-transition: 0.4s ease;
+    --top-bar-height: var(--gap);
+    --top-bar-button-position: on;
+    --top-bar-title-position: on;
+    --subtle-top-bar-title: on;
+    --custom-window-controls: on;
+    --window-control-size: 14px;
+    --custom-dms-icon: off;
+    --dms-icon-svg-url: url("");
+    --dms-icon-svg-size: 100%;
+    --dms-icon-color-before: var(--icon-secondary);
+    --dms-icon-color-after: var(--white);
+    --custom-dms-background: off;
+    --dms-background-image-url: url("");
+    --dms-background-image-size: cover;
+    --dms-background-color: rgba(0, 0, 0, 0.2);
+    --background-image: off;
+    --background-image-url: url("");
+    --transparency-tweaks: on;
+    --remove-bg-layer: on;
+    --panel-blur: on;
+    --blur-amount: 8px;
+    --bg-floating: #fca386;
+    --custom-chatbar: aligned;
+    --chatbar-height: 50px;
+    --chatbar-padding: 10px;
+    --small-user-panel: on;
+}
+
+:root {
+    --colors: on;
+    --text-0: #fff5f2 !important;
+    --text-1: #f3d9d2 !important;
+    --text-2: #43e57d;
+    --text-3: #fff700;
+    --text-4: #e56b43 !important;
+    --text-5: #c34e27 !important;
+
+    --bg-1: rgba(243, 217, 210, 0.05) !important;
+    --bg-2: rgba(243, 217, 210, 0.08) !important;
+    --bg-3: rgba(243, 217, 210, 0.1) !important;
+    --bg-4: rgba(243, 217, 210, 0.15) !important;
+
+    --hover: rgba(229, 107, 67, 0.12) !important;
+    --active: rgba(229, 107, 67, 0.18) !important;
+    --active-2: rgba(229, 107, 67, 0.25) !important;
+
+    --accent-1: #e56b43 !important;
+    --accent-2: #fca386 !important;
+    --accent-3: #c34e27 !important;
+    --accent-4: #f3d9d2 !important;
+    --accent-5: #d4af37;
+    --accent-new: #d4af37;
+
+    --mention: rgba(229, 107, 67, 0.2) !important;
+    --mention-hover: rgba(229, 107, 67, 0.3) !important;
+
+    /* Indicateurs de statut */
+    --online: #00ffc8;
+    --dnd: #ff0077;
+    --idle: #e5ff00;
+    --streaming: #6f00ff;
+    --offline: #ffffff;
+
+    --border-light: rgba(255, 255, 255, 0.06) !important;
+    --border: rgba(255, 255, 255, 0.15) !important;
+    --button-border: rgba(255, 255, 255, 0.1) !important;
+}
+
+.layers__160d8 {
+    background-color: rgba(15, 10, 12, 0.45) !important;
+}
+
+.chat__52833,
+.chatContent__5dca8,
+.container__133bf,
+.sidebar_ded4b5,
+.membersWrap__c6c02,
+.privateChannels__934e8,
+.container_fb64c9,
+.panels__3a1c6 {
+    background-color: rgba(30, 20, 22, 0.6) !important;
+    backdrop-filter: blur(10px) !important;
+    border-radius: 12px !important;
+    margin: 5px !important;
+    border: 1px solid rgba(229, 107, 67, 0.25) !important;
+    /* Filet lumineux orange */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4) !important;
+}
+
+.container_c8ffbb,
+.chat_f75fb0,
+.scroller_ef3116,
+.privateChannels__35e86 {
+    background: transparent !important;
+}
+
+.channelTextArea__2b311 {
+    background: rgba(35, 24, 26, 0.8) !important;
+    border: 1px solid rgba(229, 107, 67, 0.45) !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.45) !important;
+    border-radius: 24px !important;
+    margin-bottom: 8px !important;
+}
+
+/* Frame of announces / Embeds */
+.embedFull__b1984 {
+    background-color: rgba(25, 18, 20, 0.75) !important;
+    border-left: 4px solid var(--dark-accent) !important;
+    border-radius: 8px !important;
+}
+
+/* ==========================================================
+        INTERACTS ADJUSTMENTS AND NOTIFICATIONS
+   ========================================================== */
+.modeUnreadImportant__63047 .name__8d1ec,
+.modeSelected__473da .name__8d1ec {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    text-shadow: 0 0 5px rgba(229, 107, 67, 0.5) !important;
+}
+
+.modeSelected__473da .content__901a1 {
+    background: rgba(229, 107, 67, 0.2) !important;
+}
+
+.mention__1afd0,
+.mentionsBadge__7da43 .numberBadge__e016c {
+    background-color: #e56b43 !important;
+    color: #ffffff !important;
+}
+
+.discord-overlay {
+    backdrop-filter: blur(4px);
+    background-color: rgba(30, 20, 22, 0.55);
+    border: 1px solid rgba(229, 107, 67, 0.2);
+}
+
+.status-indicator-online {
+    background-color: var(--online);
+}
+
+.status-indicator-dnd {
+    background-color: var(--dnd);
+}
+
+.status-indicator-idle {
+    background-color: var(--idle);
+}
+
+.status-indicator-streaming {
+    background-color: var(--streaming);
+}
+
+.status-indicator-offline {
+    background-color: var(--offline);
+}
+
+/* ==========================================================
+                    BUTTON HOME CONFIGURATION
+   ========================================================== */
+.tutorialContainer__1f388 .childWrapper__6e9f8 {
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: var(--homeImage);
+    background-size: var(--homeImageSize);
+    background-clip: border-box;
+}
+
+.tutorialContainer__1f388 .wrapper__8436d:hover .childWrapper__6e9f8 {
+    background-color: rgba(229, 107, 67, 0.3) !important;
+}
+
+.tutorialContainer__1f388 .childWrapper__6e9f8>svg,
+.tutorialContainer__1f388 .childWrapper__6e9f8 .homeIcon-tEMBK1,
+.childWrapper__6e9f8 .homeIcon-FuNwkv,
+.homeIcon__560eb>* {
+    display: none !important;
+}
+
+.homeIcon__560eb {
+    background-color: transparent !important;
+    background-image: var(--homeImage);
+    background-position: var(--backgroundPosition);
+    background-repeat: var(--backgroundRepeat);
+    background-size: var(--backgroundSize);
+    height: 48px;
+    width: 48px;
+}
+
+:root {
+    --homeImage: url('https://media.discordapp.net/attachments/1506048950916878528/1506055381443547207/7a133a47bc6727c0b67531803910a1b0.jpg?ex=6a196520&is=6a1813a0&hm=fbd734c26f7afc49155ca46f7d389771f95b5c4f8fbf7298f70a87bec35f805c&=&format=webp');
+    --homeImageSize: cover;
+}
